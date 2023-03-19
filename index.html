@@ -15,7 +15,7 @@
 <body>
     <section class="topo">
         <div class="mainnav">
-            <img src="images/logo.svg" width="192px" height="32px" alt="Logo da loopstudios">
+            <img src="images/logo.svg" width="192px" height="32px" class="logo" alt="Logo da loopstudios">
             <nav>
                 <ul>
                     <li><a href="#">About</a></li>
@@ -25,6 +25,20 @@
                     <li><a href="#">Support</a></li>
                 </ul>
             </nav>
+            <div class="burger">
+                <div class="burger-icon">
+                    <img src="images/icon-hamburger.svg" alt="">
+                </div>
+                <div class="burger-menu">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="main-tittle mt-3">
             <h1>Immersive experiences that deliver</h1>
@@ -33,7 +47,10 @@
 
     <section class="dois">
         <div>
-            <img src="images/desktop/image-interactive.jpg" alt="Imagem de um homem com óculos de realidade virtual">
+            <picture>
+                <source srcset="images/desktop/image-interactive.jpg" media="(min-width: 768px)">
+                <img src="images/mobile/image-interactive.jpg">
+            </picture>
         </div>
         <div class="textos">
             <h2>The leader in interactive vr</h2>
@@ -44,81 +61,82 @@
     </section>
 
     <section class="tres">
-        <div>
+        <div class="tres-topo">
             <h2>Our creations</h2>
-            <a href="#">See all</a>
+            <a href="#" class="see-all-desktop">See all</a>
         </div>
-        <div>
-            <div>
+        <div class="grid-container mt-3">
+            <div class="grid-item">
                 <picture>
-                    <source srcset="images/desktop/image-deep-earth.jpg" media="(min-width: 1024px)">
+                    <source srcset="images/desktop/image-deep-earth.jpg" media="(min-width: 520px)">
                     <img src="images/mobile/image-deep-earth.jpg" alt="">
                 </picture>
                 <h3>Deep earth</h3>
             </div>
-            <div>
+            <div class="grid-item">
                 <picture>
-                    <source srcset="images/desktop/image-night-arcade.jpg" media="(min-width: 1024px)">
+                    <source srcset="images/desktop/image-night-arcade.jpg" media="(min-width: 520px)">
                     <img src="images/mobile/image-night-arcade.jpg" alt="">
                 </picture>
                 <h3>Night arcade</h3>
             </div>
-            <div>
+            <div class="grid-item">
                 <picture>
-                    <source srcset="images/desktop/image-soccer-team.jpg" media="(min-width: 1024px)">
+                    <source srcset="images/desktop/image-soccer-team.jpg" media="(min-width: 520px)">
                     <img src="images/mobile/image-soccer-team.jpg" alt="">
                 </picture>
                 <h3>Soccer team vr</h3>
             </div>
-            <div>
+            <div class="grid-item">
                 <picture>
-                    <source srcset="images/desktop/image-grid.jpg" media="(min-width: 1024px)">
+                    <source srcset="images/desktop/image-grid.jpg" media="(min-width: 520px)">
                     <img src="images/mobile/image-grid.jpg" alt="">
                 </picture>
                 <h3>The grid</h3>
             </div>
-            <div>
+            <div class="grid-item">
                 <picture>
-                    <source srcset="images/desktop/image-from-above.jpg" media="(min-width: 1024px)">
+                    <source srcset="images/desktop/image-from-above.jpg" media="(min-width: 520px)">
                     <img src="images/mobile/image-from-above.jpg" alt="">
                 </picture>
                 <h3>From up above vr</h3>
             </div>
-            <div>
+            <div class="grid-item">
                 <picture>
-                    <source srcset="images/desktop/image-pocket-borealis.jpg" media="(min-width: 1024px)">
+                    <source srcset="images/desktop/image-pocket-borealis.jpg" media="(min-width: 520px)">
                     <img src="images/mobile/image-pocket-borealis.jpg" alt="">
                 </picture>
                 <h3>Pocket borealis</h3>
             </div>
-            <div>
+            <div class="grid-item">
                 <picture>
-                    <source srcset="images/desktop/image-curiosity.jpg" media="(min-width: 1024px)">
+                    <source srcset="images/desktop/image-curiosity.jpg" media="(min-width: 520px)">
                     <img src="images/mobile/image-curiosity.jpg" alt="">
                 </picture>
                 <h3>The curiosity</h3>
             </div>
-            <div>
+            <div class="grid-item">
                 <picture>
-                    <source srcset="images/desktop/image-fisheye.jpg" media="(min-width: 1024px)">
+                    <source srcset="images/desktop/image-fisheye.jpg" media="(min-width: 520px)">
                     <img src="images/mobile/image-fisheye.jpg" alt="">
                 </picture>
                 <h3>Make it fisheye</h3>
             </div>
         </div>
+        <a href="#" class="see-all-mobile">See all</a>
     </section>
 
     <footer>
-        <div>
+        <div class="logo-socials mb-1">
             <img src="images/logo.svg" alt="">
-            <div>
+            <div class="socials-desktop">
                 <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-pinterest"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
-        <div>
+        <div class="menu-copy">
             <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Careers</a></li>
@@ -126,9 +144,18 @@
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Support</a></li>
             </ul>
+            <div class="socials-mobile">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
             <p>&copy 2021 Loopstudios. All rights reserved.</p>
         </div>
+
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
