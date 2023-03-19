@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --DarkGray: hsl(0, 0%, 55%);
+    --VeryDarkGray: hsl(0, 0%, 41%);
+}
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: var(--Black);
+}
+
+body, html {
+    font-size: 62.5%;
+}
+
+.mt-1 {
+    padding-top: 1.6rem;
+}
+
+.mb-1 {
+    padding-bottom: 1.6rem;
+}
+
+.mx-1 {
+    padding: 0 1.6rem;
+}
+
+.mt-2 {
+    padding-top: 3.2rem;
+}
+
+.mb-2 {
+    padding-bottom: 3.2rem;
+}
+
+.mx-2 {
+    padding: 0 3.2rem;
+}
+.mt-3 {
+    padding-top: 4.0rem;
+}
+
+.mb-3 {
+    padding-bottom: 4.0rem;
+}
+
+.mx-3 {
+    padding: 0 4.0rem;
+}
+
+.pt-1 {
+    padding-top: 1.6rem;
+}
+
+.pb-1 {
+    padding-bottom: 1.6rem;
+}
+
+.px-1 {
+    padding: 0 1.6rem;
+}
+
+.pt-2 {
+    padding-top: 3.2rem;
+}
+
+.pb-2 {
+    padding-bottom: 3.2rem;
+}
+
+.px-2 {
+    padding: 0 3.2rem;
+}
+.pt-3 {
+    padding-top: 4.0rem;
+}
+
+.pb-3 {
+    padding-bottom: 4.0rem;
+}
+
+.px-3 {
+    padding: 0 4.0rem;
+}
+
+body {
+    margin: 0 auto;
+    list-style-type: none;
+    max-width: 1440px;
+    font-family: 'Alata', sans-serif;
+    font-size: 1.5rem;
+}
