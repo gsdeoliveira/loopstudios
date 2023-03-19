@@ -320,6 +320,10 @@ footer p {
         text-align: center;
     }
 
+    .dois h2 {
+        font-size: 3.5rem;
+    }
+
     .dois p {
         padding: 0;
     }
