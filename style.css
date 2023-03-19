@@ -117,6 +117,11 @@
     padding: .25rem 2rem;
 }
 
+.tres a:hover {
+    background-color: var(--Black);
+    color: var(--White);
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -203,6 +208,30 @@ footer p {
 .menu-copy ul li:first-child {
     padding-left: 0;
 }
+
+.socials-desktop a:hover, .socials-mobile a:hover {
+    border-bottom: 1px solid var(--White);
+}
+
+@media (min-width: 1024px) {
+    footer .menu-copy a {
+        position: relative;
+    }
+    
+    footer .menu-copy a:after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 1px;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    footer .menu-copy a:hover::after {
+        width: 100%;
+        height: 1px;
+        background-color: var(--White);
+    }
+}    
 
 @media (max-width: 1200px) {
     /*---------- SECTION TOPO ----------*/
