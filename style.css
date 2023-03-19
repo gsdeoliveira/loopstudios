@@ -310,13 +310,14 @@ footer p {
     .dois {
         flex-direction: column;
     }
-
+    
     .dois div, .dois div img {
         width: 100%;
     }
-
+    
     .dois .textos {
         position: static;
+        padding-bottom: 0;
         text-align: center;
     }
 
