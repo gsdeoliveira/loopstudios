@@ -15,7 +15,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    color: var(--Black);
 }
 
 body, html {
@@ -23,38 +22,38 @@ body, html {
 }
 
 .mt-1 {
-    padding-top: 1.6rem;
+    margin-top: 1.6rem;
 }
 
 .mb-1 {
-    padding-bottom: 1.6rem;
+    margin-bottom: 1.6rem;
 }
 
 .mx-1 {
-    padding: 0 1.6rem;
+    margin: 0 1.6rem;
 }
 
 .mt-2 {
-    padding-top: 3.2rem;
+    margin-top: 3.2rem;
 }
 
 .mb-2 {
-    padding-bottom: 3.2rem;
+    margin-bottom: 3.2rem;
 }
 
 .mx-2 {
-    padding: 0 3.2rem;
+    margin: 0 3.2rem;
 }
 .mt-3 {
-    padding-top: 4.0rem;
+    margin-top: 4rem;
 }
 
 .mb-3 {
-    padding-bottom: 4.0rem;
+    margin-bottom: 4.0rem;
 }
 
 .mx-3 {
-    padding: 0 4.0rem;
+    margin: 0 4.0rem;
 }
 
 .pt-1 {
@@ -97,5 +96,13 @@ body {
     list-style-type: none;
     max-width: 1440px;
     font-family: 'Alata', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+p, a {
     font-size: 1.5rem;
 }
